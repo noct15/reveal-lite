@@ -20,8 +20,6 @@ Inside `index.html`, the `data-markdown` attribute on the `<section>` element mu
 <section data-markdown="my-talk.md" ...></section>
 ```
 
-The `template/` folder included in this repo is just a demo. Copy it, rename the folder and the `.md` file, and update `data-markdown` accordingly to start a new presentation.
-
 ## Running locally
 
 Start a local HTTP server from the repo root:
@@ -30,7 +28,7 @@ Start a local HTTP server from the repo root:
 python3 -m http.server
 ```
 
-Then open `http://localhost:8000/template/index.html` in a browser.
+Then open `http://localhost:8000/my-talk/index.html` in a browser.
 
 ## Slide format
 
@@ -59,4 +57,4 @@ Speaker notes go here (not visible to the audience)
 
 ## Hosting on GitHub Pages
 
-The presentation works as-is when served from GitHub Pages. Point Pages at the repo root and navigate to `/template/index.html`.
+The presentation works as-is when served from GitHub Pages. Point Pages at the repo root and navigate to `/my-talk/index.html`.
